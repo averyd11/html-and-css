@@ -3,15 +3,36 @@ Use only external CSS file (no internal or inline styling)
 Every element must be styled
 Create style rules using class, id, and element selectors */
 
-
-h1 {
-    font-family:avenir;
-    text-align: center;
-    font-size: 28pt;
+body {
+    margin: 0 auto;
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-a {
-    font-family:avenir;
-    text-align: center;
-    font: size 12pt;;
+/* **********  navbar  ************ */
+nav.navbar {
+    background-color: olive;
+    color: bisque;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.75rem;
+    align-self: flex-end;
+}
+
+nav.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .75rem;
+    /* justify-content: space-between; */
+    align-self: flex-end;
+}
+
+ /* *********  main  ********* */
+
+.section {
+    max-width: 900px;
+    margin: 0 3rem;
 }

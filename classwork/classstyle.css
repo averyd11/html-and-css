@@ -1,0 +1,82 @@
+body {
+    background-color: aquamarine;
+}
+
+h1: hover {
+    background-color: aqua;
+}
+.nav:hover {
+    background-color: black;
+    color: aliceblue;
+}
+.nav {
+    border: black solid 1px;
+    width: 40%;
+    padding: 1rem;
+}
+
+.nav-bar {
+    margin-bottom: 2rem;
+}
+
+.artical-body {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    background-color: rgba(226, 202, 25, 0.73);
+    padding: 2rew
+    text-align; center;
+}
+
+.article,
+.article2 {
+    text-align: left;
+}
+
+.article img {
+    float: left;
+    margin-right: 1rem;
+    width: 50%;
+}
+
+.article2 img {
+    float: right;
+    margin-left: 1rem;
+    width: 50%;
+}
+
+.article p,
+.article p2 {
+    overflow: auto;
+}
+
+.footer {
+    background-color: coral;
+    padding: 1rem;
+}
+.large-img {
+    width: 100%;
+}
+
+.red-btn,
+.blue-btn,
+.yellow-btn {
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: none;
+    width: 2rem;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+}
+
+.blue-btn {
+    background-color: blue;
+    color: white;
+}
+
+.yellow-btn {
+    background-color: yellow;
+    color: black;
+}
