@@ -19,7 +19,7 @@ footer {
     font-size: .75rem;
     background-color: olive;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 /* **********  navbar  ************ */
@@ -46,13 +46,21 @@ nav.navbar a {
     align-self: flex-end;
 }
 
- /* *********  main  ********* */
+ /* *********  home/index pare  ********* */
 
 .section {
     max-width: 1200px;
+    height: 600px
     margin: 10px auto;
     margin-left: 4px;
     border: 3px solid;
+}
+
+.section img {
+    border-radius: 10px;
+    height: 400px;
+    float: left
+    
 }
 
 .section h2 {
@@ -60,9 +68,19 @@ nav.navbar a {
     color: rgb(103, 70, 31);
     background-color: rgb(249, 187, 17);
     padding: 10px;
+    width: 200px;
+}
 
-.section .image {
+.section p {
+    border:rgb(249, 187, 17) solid .5rem;
+    padding: 10px;
+    width: 200px;
+    float: right;
 
+}
+
+#fccao {
+    float: clear;
 }
 
 /************About Page*********/
@@ -70,6 +88,18 @@ nav.navbar a {
 .aboutV {
     margin: 0 3rem;
     float: left;
+}
+
+.aboutV h2 {
+    letter-spacing: .2rem;
+    text-decoration-line: underline;
+}
+.aboutV h2:hover {
+    background-color: fuchsia;
+}
+
+.aboutV img {
+    border-radius: 10px;
 }
 
 .table {
@@ -97,4 +127,52 @@ th {
 
 tr:hover {
     background-color: fuchsia;
+}
+
+ /* ******* Gallery Page ******* */
+.gallery img {
+    margin: 20px, 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    /* justify-items: center; */
+ }
+
+ /*   ********** Contact Page ********** */
+
+ .sectionContact {
+    width: 1600px;
+    height: 600px;
+    background-size: cover;
+    background-image: url("https://uniim1.shutterfly.com/render/00-ywch8XXtoTDdJmD8AmEAnJdy3XhOp9afrzU46-0ZMmBwtz4x-8Nz0gHOakYDMhYQ4xJ2Twu75QF_jizMkB1ZdA?cn=THISLIFE&res=small&ts=1636380936");
+}
+
+.sectionContact h2{
+    text-align: left;
+    margin-top: 0px;
+    text-indent: 50px;
+    padding-top: 40px;
+    font-weight: lighter;
+}
+
+#form input{
+ padding: 10px;
+ margin-left: 50px;
+ margin-top: 30px;
+ border-radius: 10px;
+ width: 300px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ letter-spacing: .2rem;
+}
+
+#form #messageBox {
+    padding-bottom: 100px;
+}
+
+#form #buttonBox {
+    width: 70px;
+    background-color: olive;
+    color: white;
+    margin-top: 10px;
 }
