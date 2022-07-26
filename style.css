@@ -4,7 +4,7 @@ Every element must be styled
 Create style rules using class, id, and element selectors */
 
 body {
-    margin: 0 auto;
+    margin: 0 70px;
     background-color: rgb(228, 199, 162);
     font-family: Georgia, 'Times New Roman', Times, serif
 }
@@ -53,14 +53,16 @@ nav.navbar a {
     height: 600px
     margin: 10px auto;
     margin-left: 4px;
-    border: 3px solid;
+    /* border: 3px solid; */
+    
 }
 
 .section img {
     border-radius: 10px;
     height: 400px;
     float: left
-    
+    margin: 10px auto; 
+    margin-left: 4px   
 }
 
 .section h2 {
@@ -68,20 +70,62 @@ nav.navbar a {
     color: rgb(103, 70, 31);
     background-color: rgb(249, 187, 17);
     padding: 10px;
-    width: 200px;
+    width: 1600px;
+    margin: 10px ;
+    border-radius: 10px;
 }
 
 .section p {
     border:rgb(249, 187, 17) solid .5rem;
     padding: 10px;
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+    display: flex;
+}
+
+
+/* this is where I tried to vary the three sections unsuccessfully */
+
+/* #fccao {
+    max-width: 1600px;
+    display: flex;
+}
+
+#fccao h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(103, 70, 31);
+    background-color: rgb(249, 187, 17); */
+    /* padding: 10px;
+    width: 1600px;
+    height: 20px;
+    margin: 10px ;
+    border-radius: 10px;
+    float: left;
+}
+
+#fccao img {
+    border-radius: 10px; */
+    /* height: 400px;
+    float: left
+    margin: 10px auto; 
+    margin-left: 20px;
+    display: flexbox;  
+}
+
+#fccao p {
+    border:rgb(249, 187, 17) solid .5rem;
+    padding: 10px;
     width: 200px;
     float: right;
+    margin-left: 4px;
+    display: flexbox; */
+/* }
 
-}
-
-#fccao {
-    float: clear;
-}
+ul {
+    list-style-type: circle;
+    display: flexbox;
+} */
 
 /************About Page*********/
 
